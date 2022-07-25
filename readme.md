@@ -1,6 +1,6 @@
-# BeautifulPlots
+# PrettyPlots
 
-BeautifulPlots is a repository containing ``matplotlib`` style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in ``Adobe Illustrator``. Additonaly, ``.svg`` exports options allows figures to automatically adapt their font to your document's font. For example, ``.svg`` figures imported in a ``.tex`` file will automatically be generated with the text font used in your ``.tex`` file.
+PrettyPlots is a repository containing ``matplotlib`` style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in ``Adobe Illustrator``. Additonaly, ``.svg`` exports options allows figures to automatically adapt their font to your document's font. For example, ``.svg`` figures imported in a ``.tex`` file will automatically be generated with the text font used in your ``.tex`` file.
 
 <p align="center" width="50%">
     <img width="70%" src="figs/plots/ipynb+use_mathtext.svg">
@@ -9,14 +9,14 @@ BeautifulPlots is a repository containing ``matplotlib`` style sheets to nicely 
 # Installation
 
 ```bash
-pip install BeautifulPlots
+pip install PrettyPlots
 ```
 
 The pip installation will move all of the ``matplotlib`` style files ``*.mplstyle`` into the appropriate ``matplotlib`` directory.
 
 # Usage
 
-BeautifulPlots main style is called ``ipynb``. To use it, add the following lines to the begining of your python scripts:
+PrettyPlots main style is called ``ipynb``. To use it, add the following lines to the begining of your python scripts:
 
 ```python
 import matplotlib.pyplot as plt
@@ -65,7 +65,7 @@ The ``['ipynb', 'use_mathtext', 'colors10-ls']`` style:
 
 # Styles
 
-BeautifulPlots main style is called ``ipynb``. The latter by default sets the figure size to ``(4.5, 3.46) inches``, uses the default ``matplotlib`` font, activate scientific notation and makes sure your ``matplotlib`` exports will be editable in ``Adobe Illustrator``. Its default color cycle was set to ``colors10``.
+PrettyPlots main style is called ``ipynb``. The latter by default sets the figure size to ``(4.5, 3.46) inches``, uses the default ``matplotlib`` font, activate scientific notation and makes sure your ``matplotlib`` exports will be editable in ``Adobe Illustrator``. Its default color cycle was set to ``colors10``.
 
 ## Color cycles
 
@@ -106,10 +106,10 @@ By default the ``ipynb`` style uses the default ``matplotlib`` font. However, on
 
 ```python
 import matplotlib.pyplot as plt
-import beautifulplots.utils as bp
+import PrettyPlots.utils as pp
 
 plt.style.use('ipynb')
-bp.set_font('my_font.tiff')
+pp.set_font('my_font.tiff')
 ```
 
 
@@ -142,8 +142,8 @@ For those using ``IPython`` notebooks, you can set restina display support by ad
 
 
 ```python
-import beautifulplots.utils as bp
-bp.use_retina()
+import PrettyPlots.utils as pp
+pp.use_retina()
 ```
 
 # Aknoledgements
