@@ -106,10 +106,10 @@ By default the ``ipynb`` style uses the default ``matplotlib`` font. However, on
 
 ```python
 import matplotlib.pyplot as plt
-import LovelyPlots.utils as pp
+import LovelyPlots.utils as lp
 
 plt.style.use('ipynb')
-pp.set_font('my_font.tiff')
+lp.set_font('my_font.tiff')
 ```
 
 
@@ -142,8 +142,8 @@ For those using ``IPython`` notebooks, you can set restina display support by ad
 
 
 ```python
-import LovelyPlots.utils as pp
-pp.use_retina()
+import LovelyPlots.utils as lp
+lp.use_retina()
 ```
 
 # Aknoledgements
