@@ -30,6 +30,7 @@ def install_styles():
     print("Installing styles into", mpl_stylelib_dir)
     for stylefile in stylefiles:
         print(os.path.basename(stylefile))
+        print(mpl_stylelib_dir)
         shutil.copy(stylefile, os.path.join(mpl_stylelib_dir, os.path.basename(stylefile)))
 
 
@@ -46,8 +47,8 @@ with open(os.path.join(root, "readme.md"), "r", encoding="utf-8") as f:
 
 setup(
     name="LovelyPlots",
-    version="0.0.5",
-    packages=find_packages(exclude=["tests.*", "tests", "figs", "examples"]),
+    version="0.0.16",
+    packages=find_packages(exclude=["tests.*", "tests", "figs", "examples"],include=['LovelyPlots']),
     author="Killian Sheriff",
     author_email="ksheriff@mit.edu",
     description="Format Matplotlib Plots for thesis, scientific papers and reports.",
