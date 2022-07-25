@@ -44,7 +44,7 @@ with open(os.path.join(root, "readme.md"), "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="PrettyPlots",
+    name="LovelyPlots",
     version="0.0.1",
     packages=find_packages(exclude=["tests.*", "tests", "figs", "examples"]),
     author="Killian Sheriff",
@@ -64,7 +64,7 @@ setup(
         "Latex",
         "latex-figures",
     ],
-    url="https://github.com/killiansheriff/PrettyPlots",
+    url="https://github.com/killiansheriff/LovelyPlots",
     install_requires=[
         "matplotlib",
     ],
