@@ -1,4 +1,5 @@
 # LovelyPlots
+<!-- [![Github All Releases](https://img.shields.io/github/downloads/killiansheriff/LovelyPlots/total.svg)]()  -->
 
 LovelyPlots is a repository containing ``matplotlib`` style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in ``Adobe Illustrator``. Additonaly, ``.svg`` exports options allows figures to automatically adapt their font to your document's font. For example, ``.svg`` figures imported in a ``.tex`` file will automatically be generated with the text font used in your ``.tex`` file.
 
