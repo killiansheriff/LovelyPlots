@@ -138,7 +138,7 @@ An example on how to show an svg in a ``.tex`` file:
 ```
 ## Retina displays
 
-For those using ``IPython`` notebooks, you can set restina display support by adding the following lines to the beging on your python script:
+For those using ``IPython`` notebooks, you can set restina display support by adding the following lines to the begining on your python script:
 
 
 ```python
