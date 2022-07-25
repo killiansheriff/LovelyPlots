@@ -169,3 +169,18 @@ plt.style.use('ipynb')
 This reprository was inspired by [SciencePlots](https://github.com/garrettj403/SciencePlots), but adds different styles and crucial functionalities for useth in ``.tex`` files and ``Adobe Illustrator``.
 
 
+# Citing 
+
+Citing LovelyPlots is not necessary but it is always nice and appeciated if you do: 
+
+
+    @article{LovelyPlots,
+      author       = {Killian Sheriff},
+      title        = {{killiansheriff/LovelyPlots}},
+      month        = jul,
+      year         = 2021,
+      publisher    = {Zenodo},
+      version      = {0.0.24},
+      doi          = {10.5281/zenodo.6903937},
+      url          = {http://doi.org/10.5281/zenodo.6903937}
+    }
