@@ -54,32 +54,19 @@ A few styles are presented here, please see [Styles](#Styles) for a list of all 
 
 The ``['ipynb', 'use_mathtext']`` style:
 
-<p align="left" width="50%">
-    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext.svg">
-</p>
-
+![](figs/plots/ipynb%2Buse_mathtext.svg)
 
 The ``['ipynb', 'use_mathtext','colors10-markers']`` style:
 
-<p align="left" width="50%">
-    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext+colors10-markers.svg">
-</p>
-
-
+![](figs/plots/ipynb%2Buse_mathtext+colors10-markers.svg)
 
 The ``['ipynb', 'use_mathtext','colors5-light']`` style:
 
-<p align="left" width="50%">
-    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext+colors5-light.svg">
-</p>
-
+![](figs/plots/ipynb%2Buse_mathtext+colors5-light.svg)
 
 The ``['ipynb', 'use_mathtext', 'colors10-ls']`` style:
 
-<p align="left" width="50%">
-    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext+colors10-ls.svg">
-</p>
-
+![](figs/plots/ipynb%2Buse_mathtext+colors10-ls.svg)
 
 # Styles
 
@@ -163,7 +150,7 @@ For those using ``IPython`` notebooks, you can set restina display support by ad
 import LovelyPlots.utils as lp
 lp.use_retina()
 ```
-## Useth on Google Colab
+## Useth of Google Colab
 You will need to run the following code:
 ```python
 !pip install LovelyPlots
