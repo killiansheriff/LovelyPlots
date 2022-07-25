@@ -157,7 +157,7 @@ import LovelyPlots.utils as lp
 lp.use_retina()
 ```
 ## Useth of Google Colab
-You will need to run the following code:
+To use on Google Colab, you will need to run the following code:
 ```python
 !pip install LovelyPlots
 plt.style.reload_library()
