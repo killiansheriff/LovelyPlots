@@ -1,6 +1,6 @@
 # BeautifulPlots
 
-BeautifulPlots is a repository containing matplotlib style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in ``Adobe Illustrator``. Additonaly, ``.svg`` exports options allows figures to automatically adapt their font to your document's font. For example, ``.svg`` figures imported in a ``.tex`` file will automatically be generated with the text font used in your ``.tex`` file.
+BeautifulPlots is a repository containing ``matplotlib`` style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in ``Adobe Illustrator``. Additonaly, ``.svg`` exports options allows figures to automatically adapt their font to your document's font. For example, ``.svg`` figures imported in a ``.tex`` file will automatically be generated with the text font used in your ``.tex`` file.
 
 <p align="center" width="50%">
     <img width="70%" src="figs/plots/ipynb+use_mathtext.svg">
@@ -12,11 +12,11 @@ BeautifulPlots is a repository containing matplotlib style sheets to nicely form
 pip install BeautifulPlots
 ```
 
-The pip installation will move all of the ``matplotlib`` style files ``\*.mplstyle`` into the appropriate ``matplotlib`` directory.
+The pip installation will move all of the ``matplotlib`` style files ``*.mplstyle`` into the appropriate ``matplotlib`` directory.
 
 # Usage
 
-BeautifulPlots main style is called `ipynb`. To use it, add the following lines to the begining of your python scripts:
+BeautifulPlots main style is called ``ipynb``. To use it, add the following lines to the begining of your python scripts:
 
 ```python
 import matplotlib.pyplot as plt
@@ -30,9 +30,9 @@ import matplotlib.pyplot as plt
 plt.style.use(['ipynb','colorsblind34'])
 ```
 
-In the above case, the `ipynb` default color cycle will be overwritten by a 34 colors colorblind safe color cycle called `colorsblind34`.
+In the above case, the ``ipynb`` default color cycle will be overwritten by a 34 colors colorblind safe color cycle called ``colorsblind34``.
 
-If you only wish to apply a style on a specific plot, this can be achieve using:
+If you only wish to apply a style on a specific plot, this can be achieved using:
 
 ```python
 import matplotlib.pyplot as plt
@@ -43,6 +43,7 @@ with plt.style.context('ipynb'):
 ```
 
 # Examples
+
 A few styles are presented here, please see [Styles](#Styles) for a list of all implemented styles.
 
 
@@ -64,7 +65,7 @@ The ``['ipynb', 'use_mathtext', 'colors10-ls']`` style:
 
 # Styles
 
-BeautifulPlots main style is called `ipynb`. The latter by default sets the figure size to (4.5in, 3.46in), uses the default `matplotlib` font, activate scientific notation and makes sure your `matplotlib` export will be editable in ``Adobe Illustrator``. Its default color cycle was set to `colors10`.
+BeautifulPlots main style is called ``ipynb``. The latter by default sets the figure size to ``(4.5, 3.46) inches``, uses the default ``matplotlib`` font, activate scientific notation and makes sure your ``matplotlib`` exports will be editable in ``Adobe Illustrator``. Its default color cycle was set to ``colors10``.
 
 ## Color cycles
 
@@ -97,11 +98,11 @@ Line styles, markers styles and combinations can be set using the following styl
 
 ## Utils
 
-Specific `matplotlibrc` parameters can be turned on/off using the following utilities styles: `svg_no_fonttype`, `use_mathtex`, `use_tex`.
+Specific ``matplotlibrc`` parameters can be turned ``on/off`` using the following utilities styles: ``svg_no_fonttype``, ``use_mathtex``, ``use_tex``.
 
 ## Fonts
 
-By default the `ipynb` style uses the default `matplotlib` font. However, one can set its favorite font from a TIFF file:
+By default the ``ipynb`` style uses the default ``matplotlib`` font. However, one can set its favorite font from a TIFF file:
 
 ```python
 import matplotlib.pyplot as plt
@@ -137,7 +138,7 @@ An example on how to show an svg in a ``.tex`` file:
 ```
 ## Retina displays
 
-For those using 'IPython' notebooks, you can set restina display support by adding the following lines to the beging on your python script:
+For those using ``IPython`` notebooks, you can set restina display support by adding the following lines to the beging on your python script:
 
 
 ```python
