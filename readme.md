@@ -164,7 +164,7 @@ plt.style.reload_library()
 plt.style.use('ipynb')
 ```
 
-# Aknoledgements
+# Acknowledgements
 
 This reprository was inspired by [SciencePlots](https://github.com/garrettj403/SciencePlots), but adds different styles and crucial functionalities for useth in ``.tex`` files and ``Adobe Illustrator``.
 
