@@ -154,7 +154,7 @@ For those using ``IPython`` notebooks, you can set restina display support by ad
 
 ```python
 import LovelyPlots.utils as lp
-lp.use_retina()
+lp.set_retina()
 ```
 ## Useth in Google Colab
 To use on Google Colab, you will need to run the following code:
