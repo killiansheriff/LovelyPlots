@@ -54,19 +54,32 @@ A few styles are presented here, please see [Styles](#Styles) for a list of all 
 
 The ``['ipynb', 'use_mathtext']`` style:
 
-![](figs/plots/ipynb%2Buse_mathtext.svg)
+<p align="left" width="50%">
+    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext.svg">
+</p>
+
 
 The ``['ipynb', 'use_mathtext','colors10-markers']`` style:
 
-![](figs/plots/ipynb%2Buse_mathtext+colors10-markers.svg)
+<p align="left" width="50%">
+    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext+colors10-markers.svg">
+</p>
+
+
 
 The ``['ipynb', 'use_mathtext','colors5-light']`` style:
 
-![](figs/plots/ipynb%2Buse_mathtext+colors5-light.svg)
+<p align="left" width="50%">
+    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext+colors5-light.svg">
+</p>
+
 
 The ``['ipynb', 'use_mathtext', 'colors10-ls']`` style:
 
-![](figs/plots/ipynb%2Buse_mathtext+colors10-ls.svg)
+<p align="left" width="50%">
+    <img width="70%" src="figs/plots/ipynb%2Buse_mathtext+colors10-ls.svg">
+</p>
+
 
 # Styles
 
