@@ -53,6 +53,7 @@ styles = [
         "colors10-markers",
     ],
     ["classic"],
+    ["ipynb"],
 ]
 names = [
     "out/ipynb+use_mathtext.svg",
@@ -60,6 +61,7 @@ names = [
     "out/ipynb+use_mathtext+colors10-ls.svg",
     "out/ipynb+use_mathtext+colors10-markers.svg",
     "out/classicmpl.svg",
+    "out/ipynb.svg",
 ]
 #%%
 
