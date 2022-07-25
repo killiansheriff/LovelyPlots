@@ -171,7 +171,7 @@ This reprository was inspired by [SciencePlots](https://github.com/garrettj403/S
 
 # Citing 
 
-Citing LovelyPlots is not necessary but it is always nice and appeciated if you do: 
+Citing LovelyPlots is not necessary but it is always nice and appreciated if you do: 
 
 
     @article{LovelyPlots,
