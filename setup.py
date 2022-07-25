@@ -1,5 +1,6 @@
 # from https://github.com/garrettj403/SciencePlots
 
+# to setup on Pypi: https://towardsdatascience.com/how-to-upload-your-python-package-to-pypi-de1b363a1b3
 
 """Install SciencePlots.
 This script (setup.py) will copy the matplotlib styles (*.mplstyle) into the
