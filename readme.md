@@ -51,7 +51,7 @@ with plt.style.context('ipynb'):
 
 A few styles are presented here, please see [Styles](#Styles) for a list of all implemented styles.
 
-:warning: If you use the ``use_mathtext`` style, ``Adobe Illustrator`` might fail to nicely detect text objects. Please see [here](#Tips) for work arounds.
+:warning: If you use the ``use_mathtext`` style, ``Adobe Illustrator`` might fail to nicely detect text objects. Please see [here](#Tips-and-Tricks) for work arounds.
 
 
 The ``['ipynb', 'use_mathtext']`` style:
