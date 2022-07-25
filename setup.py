@@ -21,7 +21,7 @@ from setuptools.command.install import install
 
 def install_styles():
     # Find all style files
-    stylefiles = glob.glob("BeautifulPlots/styles/**/*.mplstyle", recursive=True)
+    stylefiles = glob.glob("LovelyPlots/styles/**/*.mplstyle", recursive=True)
     # Find stylelib directory (where the *.mplstyle files go)
     mpl_stylelib_dir = os.path.join(matplotlib.get_configdir(), "stylelib")
     if not os.path.exists(mpl_stylelib_dir):
@@ -46,7 +46,7 @@ with open(os.path.join(root, "readme.md"), "r", encoding="utf-8") as f:
 
 setup(
     name="LovelyPlots",
-    version="0.0.3",
+    version="0.0.4",
     packages=find_packages(exclude=["tests.*", "tests", "figs", "examples"]),
     author="Killian Sheriff",
     author_email="ksheriff@mit.edu",
