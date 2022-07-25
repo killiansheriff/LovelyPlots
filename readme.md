@@ -122,7 +122,7 @@ lp.set_font('my_font.tiff')
 
 # Tips and Tricks
 
-## Adobe illustrator
+## Adobe Illustrator
 
 Unfornunatly, ``mathtext`` (and thus nicely formated scientific notation) will mess up ``Adobe illustrator`` ability to detect text objects, and is thus not activated by default. If you wish to use it, please add the style ``use_mathtext``.
 
