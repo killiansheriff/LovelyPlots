@@ -178,7 +178,7 @@ Citing LovelyPlots is not necessary but it is always nice and appreciated if you
       author       = {Killian Sheriff},
       title        = {{killiansheriff/LovelyPlots}},
       month        = jul,
-      year         = 2021,
+      year         = 2022,
       publisher    = {Zenodo},
       version      = {0.0.24},
       doi          = {10.5281/zenodo.6903937},
