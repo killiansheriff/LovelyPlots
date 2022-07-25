@@ -124,14 +124,14 @@ lp.set_font('my_font.tiff')
 
 ## Adobe illustrator
 
-Unfornunatly, ``mathtext`` (and thus nicely formated scientific notation) will mess up ``Adobe illustrator`` ability to detect text objects, and is thus not activate by default. If you wish to use it, please add the style ``use_mathtext``.
+Unfornunatly, ``mathtext`` (and thus nicely formated scientific notation) will mess up ``Adobe illustrator`` ability to detect text objects, and is thus not activated by default. If you wish to use it, please add the style ``use_mathtext``.
 
 ## Latex and SVG files
-By default, the ``ipynb`` style sets ``svg.fonttype: none``. This allows for plots saved as ``.svg`` not to carry font information. Consequently, when opened in another environement, the plot will be generated with the default system font!
+By default, the ``ipynb`` style sets ``svg.fonttype: none``. This allows for plots saved as ``.svg`` not to carry font information. Consequently, when opened in another environement, the plot will be generated with the default system font.
 
 For example, this allows ``.svg`` plots imported inside a ``Latex`` file to directly be generated with the proper document font, without you having to manually edit the fonts to match your document's font. Additonally, you can open the ``.svg`` file as  text file, find the ugly ``1e10`` scientific notation and replace it with ``$10^10$`` so that it is nicely formated when included in your ``.tex`` file.
 
-An example on how to show an svg in a ``.tex`` file:
+An example of how to show an svg in a ``.tex`` file:
 
 ```tex
 \usepackage{svg}
