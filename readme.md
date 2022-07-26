@@ -80,7 +80,7 @@ LovelyPlots main style is called ``ipynb``. The latter by default sets the figur
 
 ## Color cycles
 
-A multitude of color cycles was implemented:
+A multitude of color cycles were implemented:
 
 ``colors5-light``
 
