@@ -18,6 +18,7 @@ axes.grid: False
 ytick.left: True
 xtick.bottom: True
 lines.markersize: 3
+
 image.cmap: inferno
 
 #turn on scientic notation
