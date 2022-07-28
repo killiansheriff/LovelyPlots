@@ -108,7 +108,7 @@ Can be seen [here](figs/colors/colorsblind34.png).
 Line styles, markers styles and combinations can be set using the following styles: `ls5`, `marker7`, `colors10-ls`, `colors10-markers`.
 
 ## Color maps
-Default ``matplotlib`` colormaps were implement and can be used by adding the following styles: ``cmap-viridis``, ``cmap-inferno``, ``cmap-cividis``, ``cmap-magma``, ``cmap-plasma``.
+Default ``matplotlib`` colormaps were implemented and can be used by adding the following styles: ``cmap-viridis``, ``cmap-inferno``, ``cmap-cividis``, ``cmap-magma``, ``cmap-plasma``.
 
 ## Utils
 
