@@ -1,2 +1,3 @@
 global-include *.mplstyle
 global-include *.md
+include LICENSE
