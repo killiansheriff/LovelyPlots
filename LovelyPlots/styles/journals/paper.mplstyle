@@ -38,4 +38,4 @@ xtick.top : False
 ytick.right : False
 figure.dpi: 300 
 
-axes.prop_cycle : cycler('color',["#FED700", "#90C47F", "#FE7C46", "#21B0FE", "#9069C5", "#FE218B"] )
+axes.prop_cycle : cycler('color',["FED700", "90C47F", "FE7C46", "21B0FE", "9069C5", "FE218B"] )
