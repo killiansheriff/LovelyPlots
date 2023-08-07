@@ -16,9 +16,7 @@ def plot_dist(
         fv = MB_speed(v, mass, T)
         ax.plot(v, fv, label=f"T={T}K")
         ax.legend()
-        ax.set(
-            **pparam,
-        )
+        ax.set(**pparam)
         fig.savefig(save_name)
 
 
