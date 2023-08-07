@@ -74,6 +74,10 @@ The ``['ipynb']`` style:
 
 ![](figs/plots/ipynb.svg)
 
+The ``['paper', 'use_mathtext']`` style:
+
+![](figs/plots/paper+use_mathtext.svg)
+
 # Styles
 
 LovelyPlots main style is called ``ipynb``. The latter by default sets the figure size to ``(4.5, 3.46) inches``, uses the default ``matplotlib`` font, activate scientific notation and makes sure your ``matplotlib`` exports will be editable in ``Adobe Illustrator``. Its default color cycle was set to ``colors10``.

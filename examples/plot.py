@@ -1,8 +1,9 @@
-#%%
+# %%
 import matplotlib.pyplot as plt
 import numpy as np
 
-#%%
+
+# %%
 def plot_dist(
     temperatures,
     v,
@@ -10,7 +11,6 @@ def plot_dist(
     pparam={"xlabel": "Speed", "ylabel": "Speed distribution"},
     save_name="",
 ):
-
     fig, ax = plt.subplots()
     for T in temperatures:
         fv = MB_speed(v, mass, T)
@@ -54,6 +54,7 @@ styles = [
     ],
     ["classic"],
     ["ipynb"],
+    ["paper", "use_mathtext"],
 ]
 names = [
     "out/ipynb+use_mathtext.svg",
@@ -62,11 +63,12 @@ names = [
     "out/ipynb+use_mathtext+colors10-markers.svg",
     "out/classicmpl.svg",
     "out/ipynb.svg",
+    "out/paper+use_mathtext.svg",
 ]
-#%%
+# %%
 
 for style, name in zip(styles, names):
     with plt.style.context(style):
         plot_dist(temperatures, v, save_name=name)
 
-#%%
+# %%
