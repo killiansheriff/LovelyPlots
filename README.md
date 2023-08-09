@@ -1,5 +1,5 @@
 # LovelyPlots
-![PyPI Version](https://img.shields.io/pypi/v/LovelyPlots.svg) ![PyPI Downloads](https://img.shields.io/pypi/dm/LovelyPlots.svg?label=PyPI%20downloads) [![doi](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.6903937-blue)](
+![PyPI Version](https://img.shields.io/pypi/v/LovelyPlots.svg) ![PyPI Downloads](https://img.shields.io/pypi/dm/LovelyPlots.svg?label=PyPI%20downloads](https://static.pepy.tech/badge/LovelyPlots)) [![doi](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.6903937-blue)](
 http://doi.org/10.5281/zenodo.6903937)
 
 LovelyPlots is a repository containing ``matplotlib`` style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in ``Adobe Illustrator``. Additonaly, ``.svg`` exports options allows figures to automatically adapt their font to your document's font. For example, ``.svg`` figures imported in a ``.tex`` file will automatically be generated with the text font used in your ``.tex`` file.
