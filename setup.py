@@ -42,7 +42,7 @@ class PostInstallMoveFile(install):
 
 # Get description from README
 root = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(root, "readme.md"), "r", encoding="utf-8") as f:
+with open(os.path.join(root, "README.md"), "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
