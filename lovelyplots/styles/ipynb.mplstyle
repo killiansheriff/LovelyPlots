@@ -1,0 +1,40 @@
+# figure Look
+figure.figsize: 4.5, 3.46
+
+axes.grid: False
+font.size: 14
+
+ytick.left: True
+xtick.bottom: True
+image.cmap: inferno
+lines.markersize: 6
+
+# turn on scientic notation
+axes.formatter.limits: -1, 1
+
+# set text objects edidable in Adobe Illustrator
+pdf.fonttype : 42
+ps.fonttype: 42
+
+# no background
+savefig.transparent: True
+
+#remove white spaces
+savefig.bbox: tight
+
+# resolution 
+figure.dpi: 450
+
+# no latex useth
+text.usetex: False
+
+# default color cycle
+axes.prop_cycle : cycler('color', ["001219","005f73","0a9396","94d2bd","e9d8a6","ee9b00","ca6702","bb3e03","ae2012","9b2226"]) + cycler('marker', ["o","o","o","o","o","o","o","o","o","o"])
+
+
+# remove legend frame
+legend.frameon : False
+
+# svg font type
+svg.fonttype: none
+

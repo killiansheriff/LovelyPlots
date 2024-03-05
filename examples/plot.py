@@ -1,7 +1,7 @@
 # %%
 import matplotlib.pyplot as plt
 import numpy as np
-
+import lovelyplots
 
 # %%
 def plot_dist(

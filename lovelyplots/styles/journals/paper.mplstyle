@@ -1,0 +1,42 @@
+# Figure size
+figure.figsize : 3.5, 2.69
+figure.constrained_layout.use : True
+figure.constrained_layout.h_pad: 0.1
+figure.constrained_layout.w_pad: 0.1
+
+# Font
+font.size : 7
+#font.family: Helvetica
+pdf.fonttype : 42
+
+# Data line and markers
+lines.linewidth : 1.0
+lines.markersize : 3
+errorbar.capsize: 3
+
+# Miscellaneous
+legend.frameon : False
+savefig.transparent: True
+
+# Axes and ticks
+axes.linewidth : 0.5
+axes.spines.right : False
+axes.spines.top : False
+xtick.direction : in
+ytick.direction : in
+xtick.major.size : 3
+ytick.major.size : 3
+xtick.major.width : 0.5
+ytick.major.width : 0.5
+xtick.minor.size : 1.5
+ytick.minor.size : 1.5
+xtick.minor.width : 0.5
+ytick.minor.width : 0.5
+xtick.minor.visible : True
+ytick.minor.visible : True
+xtick.top : False
+ytick.right : False
+figure.dpi: 300 
+
+axes.prop_cycle : cycler('color',["FE218B","FED700", "21B0FE","90C47F", "FE7C46", "9069C5", ] )
+
