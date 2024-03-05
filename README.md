@@ -28,6 +28,7 @@ The pip installation will move all of the ``matplotlib`` style files ``*.mplstyl
 LovelyPlots main style is called ``ipynb``. To use it, add the following lines to the begining of your python scripts:
 
 ```python
+import lovelyplots
 import matplotlib.pyplot as plt
 plt.style.use('ipynb')
 ```
@@ -35,6 +36,7 @@ plt.style.use('ipynb')
 Styles can be combined:
 
 ```python
+import lovelyplots
 import matplotlib.pyplot as plt
 plt.style.use(['ipynb','colorsblind34'])
 ```
@@ -44,6 +46,7 @@ In the above case, the ``ipynb`` default color cycle will be overwritten by a 34
 If you only wish to apply a style on a specific plot, this can be achieved using:
 
 ```python
+import lovelyplots
 import matplotlib.pyplot as plt
 
 with plt.style.context('ipynb'):
@@ -127,11 +130,11 @@ Specific ``matplotlibrc`` parameters can be turned ``on/off`` using the followin
 By default the ``ipynb`` style uses the default ``matplotlib`` font. However, one can set its favorite font from a TIFF file:
 
 ```python
+import lovelyplots as lp
 import matplotlib.pyplot as plt
-import lovelyplots.utils as lp
 
 plt.style.use('ipynb')
-lp.set_font('my_font.tiff')
+lp.utils.set_font('my_font.tiff')
 ```
 
 
@@ -164,13 +167,14 @@ For those using ``IPython`` notebooks, you can set retina display support by add
 
 
 ```python
-import lovelyplots.utils as lp
-lp.set_retina()
+import lovelyplots as lp
+lp.utils.set_retina()
 ```
 ## Useth in Google Colab
 To use on Google Colab, you will need to run the following code:
 ```python
 !pip install lovelyplots
+import lovelyplots
 plt.style.reload_library()
 plt.style.use('ipynb')
 ```
