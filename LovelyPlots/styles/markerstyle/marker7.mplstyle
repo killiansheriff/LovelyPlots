@@ -1,1 +1,0 @@
-axes.prop_cycle : cycler('marker', ['o', 's', '^', 'v', '<', '>', 'd'])

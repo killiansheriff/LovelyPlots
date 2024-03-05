@@ -1,5 +1,0 @@
-text.usetex: True
-text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
-
-#For helvetica font
-#text.latex.preamble: \usepackage{tgheros} usepackage{sansmath} \sansmath \usepackage{siunitx} #\sisetup{detect-all}
