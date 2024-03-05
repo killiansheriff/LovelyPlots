@@ -1,6 +1,6 @@
 # LovelyPlots
 ![PyPI Version](https://img.shields.io/pypi/v/LovelyPlots.svg) ![PyPI Downloads](https://static.pepy.tech/badge/LovelyPlots) [![doi](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.6903937-blue)](
-http://doi.org/10.5281/zenodo.6903937)
+http://doi.org/10.5281/zenodo.6903937) ![tests](https://github.com/killiansheriff/WarrenCowleyParameters/actions/workflows/python-tests.yml/badge.svg)
 
 > **Warning**
 > : As of version 1.0.0, you need to add ``import lovelyplots`` before setting the style (``plt.style.use('ipynb')``).
