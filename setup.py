@@ -10,7 +10,6 @@ must be called before plt.style.use(...).
 """
 
 import os
-
 from setuptools import setup
 
 # Get description from README
