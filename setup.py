@@ -2,59 +2,44 @@
 
 # to setup on Pypi: https://towardsdatascience.com/how-to-upload-your-python-package-to-pypi-de1b363a1b3
 
-"""Install SciencePlots.
-This script (setup.py) will copy the matplotlib styles (*.mplstyle) into the
-appropriate directory on your computer (OS dependent).
-This code is based on a StackOverflow answer:
-https://stackoverflow.com/questions/31559225/how-to-ship-or-distribute-a-matplotlib-stylesheet
+"""Install LovelyPlots.
+
+This script (setup.py) will install the LovelyPlots package.
+In order to expose .mplstyle files to matplotlib, "import lovelyplots"
+must be called before plt.style.use(...).
 """
 
-import atexit
-import glob
 import os
-import shutil
 
-import matplotlib
-from setuptools import setup, find_packages
-from setuptools.command.install import install
-
-
-def install_styles():
-    # Find all style files
-    stylefiles = glob.glob("LovelyPlots/styles/**/*.mplstyle", recursive=True)
-    # Find stylelib directory (where the *.mplstyle files go)
-    mpl_stylelib_dir = os.path.join(matplotlib.get_configdir(), "stylelib")
-    if not os.path.exists(mpl_stylelib_dir):
-        os.makedirs(mpl_stylelib_dir)
-    # Copy files over
-    print("Installing styles into", mpl_stylelib_dir)
-    for stylefile in stylefiles:
-        print(os.path.basename(stylefile))
-        print(mpl_stylelib_dir)
-        shutil.copy(stylefile, os.path.join(mpl_stylelib_dir, os.path.basename(stylefile)))
-
-
-class PostInstallMoveFile(install):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        atexit.register(install_styles)
-
+from setuptools import setup
 
 # Get description from README
 root = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(root, "README.md"), "r", encoding="utf-8") as f:
+with open(os.path.join(root, 'README.md'), 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="LovelyPlots",
-    version="0.0.27",
-    packages=find_packages(exclude=["tests.*", "tests", "figs", "examples"]),
+    name='LovelyPlots',
+    version='1.0.0',
     author="Killian Sheriff",
-    author_email="ksheriff@mit.edu",
+    author_email="killian.sheriff@gmail.com",
     description="Format Matplotlib Plots for thesis, scientific papers and reports.",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type='text/markdown',
     license="MIT",
+    url="https://github.com/killiansheriff/LovelyPlots",
+
+    install_requires=['matplotlib'],
+    packages=["LovelyPlots"],
+    package_data={
+      'scienceplots': ['styles/**/*.mplstyle'],
+    },
+
+    classifiers=[
+        'Framework :: Matplotlib', 
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3'
+    ],
     keywords=[
         "matplotlib-style-sheets",
         "matplotlib-figures",
@@ -66,12 +51,4 @@ setup(
         "Latex",
         "latex-figures",
     ],
-    url="https://github.com/killiansheriff/LovelyPlots",
-    install_requires=[
-        "matplotlib",
-    ],
-    cmdclass={
-        "install": PostInstallMoveFile,
-    },
-    include_package_data=True,
 )
