@@ -28,11 +28,10 @@ setup(
     long_description_content_type='text/markdown',
     license="MIT",
     url="https://github.com/killiansheriff/LovelyPlots",
-
     install_requires=['matplotlib'],
     packages=["LovelyPlots"],
     package_data={
-      'scienceplots': ['styles/**/*.mplstyle'],
+      'LovelyPlots': ['styles/**/*.mplstyle'],
     },
 
     classifiers=[
