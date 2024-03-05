@@ -3,7 +3,7 @@
 http://doi.org/10.5281/zenodo.6903937)
 
 > **Warning**
-> : As of version 1.0.0, you need to add ``import LovelyPlots`` before setting the style (``plt.style.use('ipynb')``).
+> : As of version 1.0.0, you need to add ``import lovelyplots`` before setting the style (``plt.style.use('ipynb')``).
 
 LovelyPlots is a repository containing ``matplotlib`` style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in ``Adobe Illustrator``. Additonaly, ``.svg`` exports options allows figures to automatically adapt their font to your document's font. For example, ``.svg`` figures imported in a ``.tex`` file will automatically be generated with the text font used in your ``.tex`` file.
 
@@ -18,7 +18,7 @@ LovelyPlots is a repository containing ``matplotlib`` style sheets to nicely for
 pip install LovelyPlots
 
 # to install latest GitHub commit
-pip install --upgrade git+https://github.com/killiansheriff/LovelyPlots
+pip install --upgrade git+https://github.com/killiansheriff/LovelyPlots.git
 ```
 
 The pip installation will move all of the ``matplotlib`` style files ``*.mplstyle`` into the appropriate ``matplotlib`` directory.
@@ -128,7 +128,7 @@ By default the ``ipynb`` style uses the default ``matplotlib`` font. However, on
 
 ```python
 import matplotlib.pyplot as plt
-import LovelyPlots.utils as lp
+import lovelyplots.utils as lp
 
 plt.style.use('ipynb')
 lp.set_font('my_font.tiff')
@@ -164,13 +164,13 @@ For those using ``IPython`` notebooks, you can set retina display support by add
 
 
 ```python
-import LovelyPlots.utils as lp
+import lovelyplots.utils as lp
 lp.set_retina()
 ```
 ## Useth in Google Colab
 To use on Google Colab, you will need to run the following code:
 ```python
-!pip install LovelyPlots
+!pip install lovelyplots
 plt.style.reload_library()
 plt.style.use('ipynb')
 ```

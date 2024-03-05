@@ -10,6 +10,7 @@ must be called before plt.style.use(...).
 """
 
 import os
+
 from setuptools import setup
 
 # Get description from README
@@ -28,9 +29,9 @@ setup(
     license="MIT",
     url="https://github.com/killiansheriff/LovelyPlots",
     install_requires=['matplotlib'],
-    packages=["LovelyPlots"],
+    packages=["lovelyplots"],
     package_data={
-      'LovelyPlots': ['styles/**/*.mplstyle'],
+      'lovelyplots': ['styles/**/*.mplstyle'],
     },
 
     classifiers=[
