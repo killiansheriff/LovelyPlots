@@ -20,7 +20,7 @@ with open(os.path.join(root, 'README.md'), 'r', encoding='utf-8') as f:
 
 setup(
     name='lovelyplots',
-    version='1.0.1',
+    version='1.0.2',
     author="Killian Sheriff",
     author_email="killian.sheriff@gmail.com",
     description="Format Matplotlib Plots for thesis, scientific papers and reports.",
