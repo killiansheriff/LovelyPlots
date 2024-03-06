@@ -19,7 +19,7 @@ with open(os.path.join(root, 'README.md'), 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='LovelyPlots',
+    name='lovelyplots',
     version='1.0.1',
     author="Killian Sheriff",
     author_email="killian.sheriff@gmail.com",
