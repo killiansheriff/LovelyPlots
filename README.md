@@ -186,7 +186,7 @@ This reprository was inspired by [SciencePlots](https://github.com/garrettj403/S
 
 # Citing 
 
-If you use LovelyPlots, please consider citing: 
+If you use LovelyPlots, please cite: 
 
     @software{sheriff_lovelyplots_2022,
       author       = {Killian Sheriff},
