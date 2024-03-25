@@ -188,14 +188,12 @@ This reprository was inspired by [SciencePlots](https://github.com/garrettj403/S
 
 If you use LovelyPlots, please consider citing: 
 
-    @software{killian_sheriff_2022_6916993,
+    @software{sheriff_lovelyplots_2022,
       author       = {Killian Sheriff},
       title        = {{LovelyPlots, a collection of matplotlib 
                        stylesheets for scientific figures}},
       month        = jul,
       year         = 2022,
       publisher    = {Zenodo},
-      version      = {v0.0.26\_LovelyPlots},
       doi          = {10.5281/zenodo.6916993},
-      url          = {https://doi.org/10.5281/zenodo.6916993}
     }
