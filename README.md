@@ -195,5 +195,5 @@ If you use LovelyPlots, please cite:
       month        = jul,
       year         = 2022,
       publisher    = {Zenodo},
-      doi          = {10.5281/zenodo.6916993},
+      doi          = {10.5281/zenodo.6903936},
     }
